@@ -689,7 +689,7 @@ input[type='text'], input[type='email'], textarea  {
   width: 100%;
   padding: 1.2rem;
   line-height: 1;
-  border: .1rem solid color-black;
+  border: .1rem solid var(--color-black);
   background-color: var(--color-white);
   box-shadow: none;
   outline: 0;
