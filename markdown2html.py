@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 '''
 A Script that writes markdown to html
+First argument is the name of the Markdown file
+Second argument is the output file name
 '''
 import sys
 import os
