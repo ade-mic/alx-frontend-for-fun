@@ -1,21 +1,10 @@
 #!/usr/bin/python3
-'''
-A Script that writes markdown to html
-'''
 import sys
 import os
 import markdown
 
 
 def main():
-    '''
-    A script that converts a markdown to html
-    Args:
-        markdown_name(file): markdown file name
-        output_file(file): output file name
-    Return:
-        None
-    '''
     if len(sys.argv) != 3:
         print("Usage: ./markdown2html.py README.md README.html", file=sys.stderr)
         exit(1)
